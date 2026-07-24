@@ -155,9 +155,10 @@ export default function StudentManegment() {
 
   const filteredStudents = students.filter(searchStudent);
 
-  const sortedStudents = [...filteredStudents];
+  // const sortedStudents = [...filteredStudents];
 
   function sortStudents() {
+      const sortedStudents = [...filteredStudents];
     if (sortBy === "az") {
       sortedStudents.sort((a, b) => a.name.localeCompare(b.name));
     } else if (sortBy === "za") {
