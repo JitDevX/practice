@@ -8,6 +8,7 @@ const initialPersons = [
   { id: 6, name: "Karan", age: 24, city: "Jaipur" },
 ];
 
+
 export default function Array() {
   const [persons, setPersons] = useState(initialPersons);
   const [search, setSearch] = useState("");
@@ -24,6 +25,7 @@ export default function Array() {
     person.age.toString().includes(keyword)
   );
 }
+  
 
 useEffect(() => {
 
@@ -62,6 +64,7 @@ useEffect(() => {
     }
 
   });
+  
 
   setDisplayPersons(filtered);
 
