@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import studentsData from "../students_500.json";
 export default function index() {
+
+  //useState
   const [students] = useState(studentsData);
 
   const [search, setSearch] = useState("");

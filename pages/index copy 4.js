@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import studentsData from "../students_60.json";
 export default function StudentManegment() {
-  
+
+
+  // this format use for import data from anther file
   // const [students, setStudents] = useState([]);
   // const [students, setStudents] = useState(dummyStudents);
     const [students, setStudents] = useState(studentsData);
