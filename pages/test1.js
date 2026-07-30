@@ -23,8 +23,7 @@ export default function test1() {
           className="text-blue-300 hover:underline hover:text-blue-700 mt-6 "
           onClick={() => (location.href = "https://github.com/")}
         >
-          {" "}
-          Explore Github Action →{" "}
+          Explore Github Action →
         </button>
 
         {/* <hr className="my-8 border-gray-700" /> */}
@@ -45,7 +44,7 @@ export default function test1() {
           <span className="text-purple-600 text-3xl">+</span>
         </div> */}
 
-        <div className="max-w-lg mt-8">
+        <div className="max-w-lg mt-8 ">
   
   {/* --- ACCORDION ITEM 1 --- */}
   <details name="github-features" className="group py-5 border-t border-[#30363d] cursor-pointer">
