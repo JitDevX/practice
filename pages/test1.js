@@ -47,48 +47,48 @@ export default function test1() {
         <div className="max-w-lg mt-8 ">
   
   {/* --- ACCORDION ITEM 1 --- */}
-  <details name="github-features" className="group py-5 border-t border-[#30363d] cursor-pointer">
-    <summary className="flex justify-between items-center list-none [&::-webkit-details-marker]:hidden">
-      <h2 className="text-xl font-medium text-[#c9d1d9] group-hover:text-white group-open:text-white transition-colors">
+  <details className="py-5 border-t border-[#30363d] cursor-pointer">
+    <summary className="flex justify-between items-center ">
+      <h2 className="text-xl font-medium text-[#c9d1d9]">
         Code instantly from anywhere
       </h2>
       {/* Plus icon (Jab band hoga tab dikhega) */}
-      <span className="text-[#bc8cff] text-2xl font-light group-open:hidden">+</span>
-      {/* Minus icon (Jab open hoga tab dikhega) */}
-      <span className="text-[#bc8cff] text-2xl font-light hidden group-open:block">−</span>
+      <span className="text-[#bc8cff] text-2xl font-light">+</span>
     </summary>
-    <p className="mt-3 text-[#8b949e] text-md leading-relaxed pr-8">
+    <p className="mt-3 text-[#8b949e] text-md pr-8">
       GitHub Codespaces provides a complete, configurable dev environment on top of a powerful VM in minutes.
     </p>
   </details>
 
   {/* --- ACCORDION ITEM 2 --- */}
-  <details name="github-features" className="group py-5 border-t border-[#30363d] cursor-pointer">
-    <summary className="flex justify-between items-center list-none [&::-webkit-details-marker]:hidden">
-      <h2 className="text-xl font-medium text-[#c9d1d9] group-hover:text-white group-open:text-white transition-colors">
-        Keep momentum on the go
+  <details className="py-5 border-t border-[#30363d] cursor-pointer">
+    <summary className="flex justify-between items-center ">
+      <h2 className="text-xl font-medium text-[#c9d1d9]">
+        Code instantly from anywhere
       </h2>
-      <span className="text-[#bc8cff] text-2xl font-light group-open:hidden">+</span>
-      <span className="text-[#bc8cff] text-2xl font-light hidden group-open:block">−</span>
+      {/* Plus icon (Jab band hoga tab dikhega) */}
+      <span className="text-[#bc8cff] text-2xl font-light">+</span>
     </summary>
-    <p className="mt-3 text-[#8b949e] text-md leading-relaxed pr-8">
-      Review code, manage pull requests, and merge changes from anywhere with GitHub Mobile for iOS and Android.
+    <p className="mt-3 text-[#8b949e] text-md pr-8">
+      GitHub Codespaces provides a complete, configurable dev environment on top of a powerful VM in minutes.
+    </p>
+  </details>
+ 
+
+  {/* --- ACCORDION ITEM 3 --- */}
+  <details className="py-5 border-t border-[#30363d] cursor-pointer">
+    <summary className="flex justify-between items-center ">
+      <h2 className="text-xl font-medium text-[#c9d1d9]">
+        Code instantly from anywhere
+      </h2>
+      {/* Plus icon (Jab band hoga tab dikhega) */}
+      <span className="text-[#bc8cff] text-2xl font-light">+</span>
+    </summary>
+    <p className="mt-3 text-[#8b949e] text-md pr-8">
+      GitHub Codespaces provides a complete, configurable dev environment on top of a powerful VM in minutes.
     </p>
   </details>
 
-  {/* --- ACCORDION ITEM 3 --- */}
-  <details name="github-features" className="group py-5 border-t border-b border-[#30363d] cursor-pointer">
-    <summary className="flex justify-between items-center list-none [&::-webkit-details-marker]:hidden">
-      <h2 className="text-xl font-medium text-[#c9d1d9] group-hover:text-white group-open:text-white transition-colors">
-        Shape your toolchain
-      </h2>
-      <span className="text-[#bc8cff] text-2xl font-light group-open:hidden">+</span>
-      <span className="text-[#bc8cff] text-2xl font-light hidden group-open:block">−</span>
-    </summary>
-    <p className="mt-3 text-[#8b949e] text-md leading-relaxed pr-8">
-      Customize your workflows with GitHub Apps, Webhooks, and the GitHub API. Build exactly what your team needs.
-    </p>
-  </details>
 
 </div>
       </div>

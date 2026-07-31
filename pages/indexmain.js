@@ -42,10 +42,6 @@ export default function GoogleAuth() {
     },
   ]);
   // useState for initak value and secound is refersh secound
-
-  const [accounts, setAccounts] = useState();
-  const [seconds, setSeconds] = useState(10);
-
   //   // useEffecrt countdown and refersh
 
   useEffect(() => {
