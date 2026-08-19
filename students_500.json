@@ -5,30 +5,35 @@
     "age": 19,
     "city": "Jaipur"
   },
+  
   {
     "id": 2,
     "name": "Aman 2",
     "age": 20,
     "city": "Delhi"
   },
+  
   {
     "id": 3,
     "name": "Rohit 3",
     "age": 21,
     "city": "Mumbai"
   },
+  
   {
     "id": 4,
     "name": "Vikas 4",
     "age": 22,
     "city": "Pune"
   },
+  
   {
     "id": 5,
     "name": "Neha 5",
     "age": 23,
     "city": "Bengaluru"
   },
+  
   {
     "id": 6,
     "name": "Priya 6",
