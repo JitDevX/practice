@@ -1,7 +1,17 @@
 import React, { useEffect, useState } from "react";
 
 export default function test5() {
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState([{
+      id: 1,
+      text: "Learn React",
+      completed: true,
+    },
+    {
+      id: 2,
+      text: "Learn JavaScript",
+      completed: false,
+    },
+  ]);
   const [input, setInput] = useState("");
   const [search, setSearch] = useState("");
 
