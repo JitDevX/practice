@@ -53,10 +53,9 @@ const dummyStudents = [
   { id: 50, name: "Jitendra Yadav", age: 22, course: "Node" },
 ];
 export default function StudentManegment() {
-  
   const [students, setStudents] = useState([]);
   // const [students, setStudents] = useState(dummyStudents);
-    // const [students, setStudents] = useState(studentsData);
+  // const [students, setStudents] = useState(studentsData);
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
   const [course, setCourse] = useState("");
@@ -97,7 +96,7 @@ export default function StudentManegment() {
       name: name,
       age: age,
       course: course,
-      createdAt:new Date()
+      createdAt: new Date(),
     };
     setStudents([...students, student]);
     setName("");
@@ -160,7 +159,7 @@ export default function StudentManegment() {
   // const sortedStudents = [...filteredStudents];
 
   function sortStudents() {
-      const sortedStudents = [...filteredStudents];
+    const sortedStudents = [...filteredStudents];
     if (sortBy === "az") {
       sortedStudents.sort((a, b) => a.name.localeCompare(b.name));
     } else if (sortBy === "za") {
