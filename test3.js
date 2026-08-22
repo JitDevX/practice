@@ -32,3 +32,29 @@ const resultSerach = initialPersons.filter(person =>
   person.city.toLowerCase().includes(keyword.toLowerCase()) ||
   person.age.toString().includes(keyword)
 );
+
+
+// groupdata 
+const groupdata = {};
+initialPersons.forEach(persone => {
+    if(!groupdata [persone.city]){
+        groupdata[persone.city] = []
+    }
+    groupdata[persone.city].push(persone)
+
+})
+
+console.log(groupdata)
+
+// another mathod use reduce 
+const groupedByCity = initialPersons.reduce((groups, person) => {
+  if (!groups[person.city]) {
+    groups[person.city] = [];
+  }
+
+  groups[person.city].push(person);
+
+  return groups;
+}, {});
+
+console.log(groupedByCity);
