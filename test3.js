@@ -18,3 +18,17 @@ console.log(names);
 const result = initialPersons.filter(person => person.city === "Delhi");
 
 console.log(result);
+
+// sort Age low → high
+const sorted = [...initialPersons].sort(
+  (a, b) => a.age - b.age
+);
+
+// serahing all fildes
+const keyword = "2";
+
+const resultSerach = initialPersons.filter(person =>
+  person.name.toLowerCase().includes(keyword.toLowerCase()) ||
+  person.city.toLowerCase().includes(keyword.toLowerCase()) ||
+  person.age.toString().includes(keyword)
+);
