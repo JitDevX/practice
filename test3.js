@@ -7,3 +7,14 @@ const initialPersons = [
   { id: 6, name: "Karan", age: 24, city: "Jaipur" },
 ];
 
+
+// map()
+const names = initialPersons.map(person => person.name);
+
+console.log(names);
+
+
+// search 
+const result = initialPersons.filter(person => person.city === "Delhi");
+
+console.log(result);
